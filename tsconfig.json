@@ -1,0 +1,18 @@
+{
+  "extends": "@aristobyte-ui/typescript-config/next",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "plugins": [{ "name": "next" }],
+    "paths": { "@/*": ["./*"] }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "next-env.d.ts",
+    "next.config.ts",
+    ".next/types/**/*.ts",
+    "tailwind.config.ts",
+    "eslint.config.mjs"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
