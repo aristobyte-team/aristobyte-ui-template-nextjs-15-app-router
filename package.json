@@ -1,0 +1,40 @@
+{
+  "name": "aristobyte-ui-template-nextjs-15-app-router",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.19.0",
+    "yarn": "1.22.22"
+  },
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@aristobyte-ui/anchor": "^1.0.108",
+    "@aristobyte-ui/button": "^1.0.108",
+    "@aristobyte-ui/eslint-config": "^1.0.108",
+    "@aristobyte-ui/label": "^1.0.108",
+    "@aristobyte-ui/theme": "^1.0.108",
+    "@aristobyte-ui/typescript-config": "^1.0.108",
+    "@aristobyte-ui/utils": "^1.0.108",
+    "@tailwindcss/postcss": "^4.1.13",
+    "next": "15.5.2",
+    "postcss": "^8.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "typescript": "^5"
+  }
+}
